@@ -65,7 +65,7 @@
             <use href="#cap" />
           </svg></i><span><b data-t="school.name"></b><small data-t="school.subtitle"></small></span></a>
       <nav class="links" aria-label="التنقل"><a href="#top">الرئيسية</a><a href="#levels">المراحل</a><a
-          href="#facilities">المرافق</a><a href="#fame">الأوائل</a><a href="#services">الخدمات</a><a
+          href="#facilities">المرافق</a><a href="#gallery">المعرض</a><a href="#fame">الأوائل</a><a href="#services">الخدمات</a><a
           href="#contact">تواصل معنا</a></nav>
       <a class="btn o" href="#top"><svg class="i">
           <use href="#sr" />
@@ -75,6 +75,7 @@
   </header>
 
   <div class="hero" id="top">
+    <div class="hero-bg" id="heroBg"></div>
     <div class="wrap">
       <span class="pill"><svg class="i">
           <use href="#pin" />
@@ -108,6 +109,14 @@
       <h2 data-t="sections.facilities.title"></h2>
       <p class="sub" data-t="sections.facilities.sub"></p>
       <div class="grid" id="facilities-list"></div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <div class="wrap">
+      <h2 data-t="sections.gallery.title"></h2>
+      <p class="sub" data-t="sections.gallery.sub"></p>
+      <div class="gal" id="gal"></div>
     </div>
   </section>
 
@@ -172,6 +181,7 @@
     </div>
   </footer>
 
+  <dialog id="lb" aria-label="عرض الصورة"><button class="lx" id="lbX" aria-label="إغلاق">×</button><button class="ln lp" id="lbP" aria-label="السابقة">›</button><button class="ln lnx" id="lbN" aria-label="التالية">‹</button><img id="lbI" alt=""><p id="lbC"></p></dialog>
   <script src="js/data.js"></script>
   <script src="js/main.js"></script>
 </body>
